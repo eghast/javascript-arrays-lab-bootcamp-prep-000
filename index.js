@@ -13,7 +13,7 @@ function destructivelyPrependKitten(name){
 }
 
 function destructivelyRemoveLastKitten(){
-  return kittens.slice(-1);
+  return kittens.pop();
   
 }
 
@@ -36,7 +36,7 @@ function removeLastKitten(){
 }
 
 function removeFirstKitten(){
-  return kittens.splice(1)
+  return kittens.slice(1)
   
 }
 
